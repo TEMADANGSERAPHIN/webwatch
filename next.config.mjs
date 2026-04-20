@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    serverComponentsExternalPackages: ["@upstash/redis"],
-  },
+  serverExternalPackages: ["@upstash/redis"],
 };
 
 export default nextConfig;
